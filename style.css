@@ -1,0 +1,317 @@
+@charset "utf-8";
+/* CSS Document */
+body
+{
+	margin: 0;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-size: small;
+	color: #CCC;
+}
+
+.btn1
+{
+	border-color:#88C5DB;
+	padding:10px 75px;
+	background-color: #C0C0C0;
+	color:#000;
+	
+}
+
+.btn1:hover
+{
+	border-color: #6F0;
+	padding: 10px 75px;
+	background-color: #DFFECD;
+	color: #000;
+}
+
+.button {
+    background-color: #C0C0C0;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.button:hover
+{
+	background-color: #0C0;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+}
+.button2 {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.button3 {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.button3:hover
+{
+	background-color: #0C0;
+    border: none;
+    color: white;
+    padding: 10px 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.button4 {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button5 {
+    background-color: transparent; 
+    color: white;
+	font-size:20px;
+	font-weight:bold;
+    border: 4px solid #FFF;
+	padding:10px 75px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+	font-variant:small-caps;
+}
+
+.button5:hover {
+    background-color: #4CAF50;
+    border: 4px solid #4CAF50;
+    color: white;
+}
+
+.button6 {
+    background-color:transparent; 
+    color:white; 
+    border: 4px solid #FFF;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+	font-size:20px; 
+	font-weight:bold;
+	padding:10px 75px;
+	font-variant:small-caps;
+}
+
+.button6:hover {
+    background-color: #008CBA;
+	    border: 4px solid #008CBA;
+
+    color: white;
+}
+
+.button7 {
+    background-color:transparent; 
+    color: white; 
+    border: 4px solid #FFF;
+	padding:10px 75px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+	font-size:20px; 
+	font-weight:bold;
+	padding:10px 75px;
+	font-variant:small-caps;
+}
+
+.button7:hover {
+    background-color: #F00;
+	    border: 4px solid #F00;
+
+    color: white;
+}
+
+.button8 {
+    background-color: transparent;
+    color: #e7e7e7;
+    border: 4px solid #e7e7e7;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+	font-size:20px; 
+	font-weight:bold;
+	padding:10px 75px;
+	font-variant:small-caps;
+}
+
+.button8:hover {background-color: #e7e7e7;}
+
+.button9 {
+    background-color: transparent;
+    color: white;
+    border: 4px solid #black;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+	font-size:20px; 
+	font-weight:bold;
+	padding:10px 10px;
+	font-variant:small-caps;
+}
+
+.button9:hover {
+    background-color:green;
+    color: white;
+}
+.buttoncal {
+    background-color:transparent; 
+    color:white; 
+    border: 4px solid #FFF;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+	font-size:20px; 
+	font-weight:bold;
+	padding:1px 20px;
+	font-variant:small-caps;
+}
+
+.buttoncal:hover {
+    background-color: #008CBA;
+	    border: 4px solid #008CBA;
+
+    color: white;
+}
+.btngrade {
+    background-color:transparent; 
+    color:white; 
+    border: 4px solid #FFF;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+	font-size:20px; 
+	font-weight:bold;
+	padding:5px 20px;
+}
+
+.btngrade:hover {
+    background-color: #008CBA;
+	border: 4px solid #008CBA;
+    color: white;
+}
+.btn0 {
+    background-color:transparent; 
+    color:white; 
+    border: 4px solid #FFF;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+	font-size:15px; 
+	font-weight:bold;
+	padding:5px 10px;
+}
+
+.btn0:hover {
+    background-color: #0FF;
+	border: 4px solid #0FF;
+    color: white;
+}
+
+/*.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+.hover11 figure img {
+	opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover11 figure:hover img {
+	opacity: .5;
+}
+*/
+/*------------------------------------- DivTable.com ------------------------------------------*/
+.divTable{
+	display: table;
+	width: 100%;
+}
+.divTableRow {
+	display: table-row;
+}
+.divTableHeading {
+	background-color: #EEE;
+	display: table-header-group;
+}
+.divTableCell, .divTableHead {
+	border: 1px solid #999999;
+	display: table-cell;
+	padding: 3px 10px;
+}
+.divTableHeading {
+	background-color: #EEE;
+	display: table-header-group;
+	font-weight: bold;
+}
+.divTableFoot {
+	background-color: #EEE;
+	display: table-footer-group;
+	font-weight: bold;
+}
+.divTableBody {
+	display: table-row-group;
+}
+
+/*------------------------------------- Image Hover Effect ------------------------------------------*/
+.shadowfilter {
+	-webkit-filter: drop-shadow(0px 0px 0px rgba(255,255,255,0.80));
+	-webkit-transition: all 0.5s linear;
+	-o-transition: all 0.5s linear;
+	transition: all 0.3s linear;
+	
+}.shadowfilter:hover {
+	-webkit-filter: drop-shadow(0px 0px 8px rgba(63, 255, 0, 0.8));
+}
+
+/*------------------------------------- For the view grade ------------------------------------------*/
+
+#result
+{
+	width: 1000px;
+	height: auto;
+	overflow: hidden;
+	margin: 10px auto;
+	font-size: 20px;
+}
+#apanel
+{
+	width:1000px;
+	height:60px;
+	margin-top:20px;
+	text-align:center;
+	background-color: #003;
+}

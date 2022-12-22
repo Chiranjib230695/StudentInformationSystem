@@ -1,0 +1,160 @@
+
+h1{
+  font-size: 30px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 300;
+  text-align: center;
+  width:100%;
+  margin-bottom: 15px;
+}
+table{
+  width:100%;
+  table-layout: fixed;
+}
+.tbl-header{
+  background-color: rgba(255,255,255,0.3);
+ }
+.tbl-content{
+  height:59%;
+  overflow-x:auto;
+  margin-top: 0px;
+  border: 1px solid rgba(255,255,255,0.3);
+}
+th{
+  padding: 15px 15px;
+  text-align: center;
+  font-weight: 300;
+  font-size: 15px;
+  color: #FFFFFF;
+  text-transform:uppercase;
+}
+td{
+  padding: 15px;
+  text-align: center;
+  vertical-align:middle;
+  font-weight: 300;
+  font-size: 18px;
+  color: #fff;
+  border-bottom: solid 1px rgba(255,255,255,0.1);
+}
+
+/* demo styles */
+
+/*@import url(http://fonts.googleapis.com/css?family=Roboto:400,500,300,700);*/
+body{
+	margin: 0;
+	font-family: "Lato", sans-serif;
+	font-size:13px;
+}
+section{
+  margin: 50px;
+}
+
+
+/* follow me template */
+/*.made-with-love {
+  margin-top: 40px;
+  padding: 10px;
+  clear: left;
+  text-align: center;
+  font-size: 10px;
+  font-family: arial;
+  color: #fff;
+}
+.made-with-love i {
+  font-style: normal;
+  color: #F50057;
+  font-size: 14px;
+  position: relative;
+  top: 2px;
+}
+.made-with-love a {
+  color: #fff;
+  text-decoration: none;
+}
+.made-with-love a:hover {
+  text-decoration: underline;
+}
+*/
+
+/* for custom scrollbar for webkit browser*/
+
+::-webkit-scrollbar {
+    width: 10px;
+} 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 5px 2px rgba(0,255,0,.3); 
+} 
+::-webkit-scrollbar-thumb {
+    -webkit-box-shadow: inset 0 0 5px 2px rgba(0,300,255,1); 
+}
+
+
+
+/*=========================
+buttons
+============================*/
+.button {
+    background-color:#0FF; /* Green */
+    border: none;
+    color: white;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration:none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.delbutton {
+    background-color:transparent ;
+    color: black;
+    border: 2px solid #f44336;
+}
+
+.delbutton:hover {
+    background-color: #f44336;
+    color: white;
+	text-decoration:blink;
+}
+
+.editbutton {
+    background-color: transparent; 
+    color: black; 
+    border: 2px solid #0FF;
+}
+
+.editbutton:hover {
+    background-color: #0FF;
+    color: white;
+}
+.detailbtn {
+    background-color: transparent; 
+    color: black; 
+    border: 2px solid #0FF;
+}
+
+.detailbtn:hover {
+    background-color: #000;
+    color: white;
+	border: 2px solid #0FF;
+
+}
+.tab {
+    background-color:transparent ;
+    
+}
+
+.tab:hover {
+    background-color: #23D57F;
+	font-size:17px;
+}
+
+.hr{
+	width:50%;
+	padding:12px;
+	color:#2AEB0C;
+	}
